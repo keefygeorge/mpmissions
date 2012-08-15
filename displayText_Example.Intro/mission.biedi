@@ -1,0 +1,1263 @@
+class _prefix_0
+{
+	objectType="prefix";
+	class Arguments
+	{
+		VERSION="7";
+		ADDON[]=
+		{
+			"vbs2_people_au_adf_rifleman",
+			"vbs2_vehicles_air_helicopters_boeing_h47_au_ch47",
+			"vbs2_vehicles_air_helicopters_nhi_nh90_au_nh90",
+			"vbs2_vehicles_air_helicopters_sikorsky_h70_au_s70",
+			"vbs2_editor",
+			"vbs2_people_au_adf_pilot_heli",
+			"vbs2_structures_objects",
+			"vbs2_structures_misc"
+		};
+	};
+	layers[]={};
+	DeletedMapObjects[]={};
+};
+class _unit_0
+{
+	objectType="unit";
+	height=0.000000;
+	class Arguments
+	{
+		SIDE="WEST";
+		TYPE="VBS2_AU_Army_ATsoldier_D_CarlGustav";
+		BASE_TYPE="";
+		EDIT_UNIT="";
+		NEW_UNIT="";
+		DELETE_UNIT="";
+		IS_EDIT="";
+		PLAYER="true";
+		ADVANCED="";
+		BG1="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG2="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG3="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG5="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG6="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG7="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG8="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG9="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG10="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG11="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG12="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG13="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG14="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		HEALTH="1.00000";
+		AMMO="1.00000";
+		PROBOFPRES="1.00000";
+		TRAINING="0.50000";
+		EXPERIENCE="0.20000";
+		ENDURANCE="0.50000";
+		LEADERSHIP="0.20000";
+		FLEECHANCE="0.75000";
+		HEIGHT="1.82000";
+		BMI="0.00000";
+		POSITION="[2547.39209, 2544.07251, 13.86000]";
+		COLOR="[0.6,0.6,1]";
+		SUB_TEAM="";
+		DISPLAY_NAME="(P) AT Soldier - CarlGustav M2";
+		DISPLAY_NAME_TREE="(P) AT Soldier - CarlGustav M2";
+		PARENT_UNIT="";
+		LOADOUT="";
+	};
+};
+class _object_0
+{
+	objectType="object";
+	height=0.888300;
+	class Arguments
+	{
+		NAME="radio1";
+		SUB_TEAM="";
+		SIDE="all";
+		TYPE="vbs2_control_radio_2way_2";
+		ADVANCED="";
+		FUEL="1.00000";
+		BG1="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		HEALTH="1.00000";
+		BG2="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		PROBOFPRES="1.00000";
+		AZIMUT="17.77615";
+		VECTORDIR="[0.30530,0.95226,0.00000]";
+		VECTORUP="[0.00000,0.00000,1.00000]";
+		AMMO="1.00000";
+		POSITION="[2547.39,2552.2,14.7483]";
+		COLOR="[0.5,0.5,0]";
+		DISPLAY_NAME="(radio1) 2-Way Radio";
+		DISPLAY_NAME_TREE="(radio1) 2-Way Radio";
+	};
+};
+class _object_1
+{
+	objectType="object";
+	height=0.000000;
+	class Arguments
+	{
+		SUB_TEAM="";
+		SIDE="all";
+		TYPE="Land_posez";
+		ADVANCED="";
+		FUEL="1.00000";
+		BG1="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		HEALTH="1.00000";
+		BG2="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		PROBOFPRES="1.00000";
+		AZIMUT="270.27560";
+		VECTORDIR="[-0.99999,0.00481,0.00000]";
+		VECTORUP="[0.00000,0.00000,1.00000]";
+		AMMO="1.00000";
+		POSITION="[2547.98,2552.94,13.86]";
+		COLOR="[0.5,0.5,0]";
+		DISPLAY_NAME="Table - picnic";
+		DISPLAY_NAME_TREE="Table - picnic";
+	};
+};
+class _object_4
+{
+	objectType="object";
+	height=0.888300;
+	class Arguments
+	{
+		NAME="radio2";
+		SUB_TEAM="";
+		SIDE="all";
+		TYPE="vbs2_control_radio_2way_2";
+		ADVANCED="";
+		FUEL="1.00000";
+		BG1="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		HEALTH="1.00000";
+		BG2="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		PROBOFPRES="1.00000";
+		AZIMUT="106.60973";
+		VECTORDIR="[0.95827,-0.28585,0.00000]";
+		VECTORUP="[0.00000,0.00000,1.00000]";
+		AMMO="1.00000";
+		POSITION="[2536.77,2553.73,14.7483]";
+		COLOR="[0.5,0.5,0]";
+		DISPLAY_NAME="(radio2) 2-Way Radio";
+		DISPLAY_NAME_TREE="(radio2) 2-Way Radio";
+		TOWED_BY="";
+	};
+};
+class _object_5
+{
+	objectType="object";
+	height=0.000401;
+	class Arguments
+	{
+		SUB_TEAM="";
+		SIDE="all";
+		TYPE="Land_posez";
+		ADVANCED="";
+		FUEL="1.00000";
+		BG1="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		HEALTH="1.00000";
+		BG2="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		PROBOFPRES="1.00000";
+		AZIMUT="359.10672";
+		VECTORDIR="[-0.01559,0.99988,0.00000]";
+		VECTORUP="[0.00000,0.00000,1.00000]";
+		AMMO="1.00000";
+		POSITION="[2537.52,2553.15,13.8604]";
+		COLOR="[0.5,0.5,0]";
+		DISPLAY_NAME="Table - picnic";
+		DISPLAY_NAME_TREE="Table - picnic";
+		TOWED_BY="";
+	};
+};
+class _object_8
+{
+	objectType="object";
+	height=0.888375;
+	class Arguments
+	{
+		NAME="radio3";
+		SUB_TEAM="";
+		SIDE="all";
+		TYPE="vbs2_control_radio_2way_2";
+		ADVANCED="";
+		FUEL="1.00000";
+		BG1="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		HEALTH="1.00000";
+		BG2="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		PROBOFPRES="1.00000";
+		AZIMUT="95.08077";
+		VECTORDIR="[0.99607,-0.08856,0.00000]";
+		VECTORUP="[0.00000,0.00000,1.00000]";
+		AMMO="1.00000";
+		POSITION="[2557.14,2553.52,14.7482]";
+		COLOR="[0.5,0.5,0]";
+		DISPLAY_NAME="(radio3) 2-Way Radio";
+		DISPLAY_NAME_TREE="(radio3) 2-Way Radio";
+		TOWED_BY="";
+	};
+};
+class _object_9
+{
+	objectType="object";
+	height=0.000890;
+	class Arguments
+	{
+		SUB_TEAM="";
+		SIDE="all";
+		TYPE="Land_posez";
+		ADVANCED="";
+		FUEL="1.00000";
+		BG1="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		HEALTH="1.00000";
+		BG2="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		PROBOFPRES="1.00000";
+		AZIMUT="347.58151";
+		VECTORDIR="[-0.21505,0.97660,0.00000]";
+		VECTORUP="[0.00000,0.00000,1.00000]";
+		AMMO="1.00000";
+		POSITION="[2557.99,2553.1,13.8606]";
+		COLOR="[0.5,0.5,0]";
+		DISPLAY_NAME="Table - picnic";
+		DISPLAY_NAME_TREE="Table - picnic";
+		TOWED_BY="";
+	};
+};
+class _group_0
+{
+	objectType="group";
+	height=-13.858561;
+	class Arguments
+	{
+		DISPLAY_NAME="WEST 1-1-A-2";
+		DISPLAY_NAME_TREE="WEST 1-1-A-2";
+		POSITION="[2530.03,2565.43,0.00143909]";
+		SIDE="WEST";
+	};
+};
+class _group_1
+{
+	objectType="group";
+	height=138.139999;
+	class Arguments
+	{
+		DISPLAY_NAME="WEST 1-1-A-3";
+		DISPLAY_NAME_TREE="WEST 1-1-A-3";
+		POSITION="[2579.19,2505.22,152]";
+		SIDE="WEST";
+		FIRSTTASK="";
+	};
+};
+class _unit_2
+{
+	objectType="unit";
+	height=0.000000;
+	class Arguments
+	{
+		NAME="unit1";
+		SIDE="west";
+		TYPE="VBS2_AU_Army_ATsoldier_D_CarlGustav";
+		BASE_TYPE="";
+		EDIT_UNIT="";
+		NEW_UNIT="";
+		DELETE_UNIT="";
+		IS_EDIT="";
+		COMBATMODE="YELLOW";
+		BEHAVIOUR="SAFE";
+		ADVANCED="";
+		BG1="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG2="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG3="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG5="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG6="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG7="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG8="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG9="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG10="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG11="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG12="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG13="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG14="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		HEALTH="1.00000";
+		AMMO="1.00000";
+		PROBOFPRES="1.00000";
+		TRAINING="0.50000";
+		EXPERIENCE="0.20000";
+		ENDURANCE="0.50000";
+		LEADERSHIP="0.20000";
+		FLEECHANCE="0.75000";
+		HEIGHT="1.82000";
+		BMI="0.00000";
+		AZIMUT="176.35667";
+		POSITION="[2530.02832, 2565.42700, 13.86000]";
+		COLOR="[0.6,0.6,1]";
+		SUB_TEAM="";
+		DISPLAY_NAME="(unit1) AT Soldier - CarlGustav M2";
+		DISPLAY_NAME_TREE="(unit1) AT Soldier - CarlGustav M2";
+		PARENT="_group_0";
+		PARENT_UNIT="";
+		FIRSTTASK="";
+		LOADOUT="";
+	};
+};
+class _vehicle_0
+{
+	objectType="vehicle";
+	height=152.000000;
+	class Arguments
+	{
+		NAME="chinook1";
+		SUB_TEAM="";
+		SIDE="all";
+		TYPE="VBS2_AU_Army_CH47D_G_M134";
+		EDIT_UNIT="";
+		NEW_UNIT="";
+		DELETE_UNIT="";
+		IS_EDIT="";
+		INIT="flyinheight = 30;";
+		SPECIAL="FLY";
+		ADVANCED="";
+		BG1="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		FUEL="1.00000";
+		BG2="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		HEALTH="1.00000";
+		BG3="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		AMMO="1.00000";
+		BG4="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		PROBOFPRES="1.00000";
+		VECTORDIR="[0,1,0]";
+		VECTORUP="[0,0,1]";
+		POSITION="[2579.19,2505.22,165.86]";
+		PARENT="_group_1";
+		COLOR="[0.6,0.6,1]";
+		DISPLAY_NAME="(chinook1) CH-47D";
+		DISPLAY_NAME_TREE="(chinook1) CH-47D";
+	};
+};
+class _unit_4
+{
+	objectType="unit";
+	height=-13.860000;
+	class Arguments
+	{
+		DESCRIPTION="CH-47D Pilot ";
+		SIDE="WEST";
+		TYPE="VBS2_AU_Army_HeliPilot_W_BrowningHP";
+		SPECIAL="CARGO";
+		POSITION="[2579.19,2505.22,0]";
+		COLOR="[0.6,0.6,1]";
+		COMMANDER="";
+		DRIVER="_vehicle_0";
+		GUNNER="";
+		LEADER="";
+		DISPLAY_NAME="CH-47D Pilot ";
+		DISPLAY_NAME_TREE="CH-47D Pilot ";
+		PARENT="_group_1";
+		PARENT_UNIT="";
+	};
+};
+class _unit_5
+{
+	objectType="unit";
+	height=-13.860000;
+	class Arguments
+	{
+		DESCRIPTION="CH-47D Gunner ";
+		SIDE="WEST";
+		TYPE="VBS2_AU_Army_HeliPilot_W_BrowningHP";
+		SPECIAL="CARGO";
+		POSITION="[2579.19,2505.22,0]";
+		COLOR="[0.6,0.6,1]";
+		COMMANDER="";
+		DRIVER="";
+		GUNNER="_vehicle_0";
+		GUNNER_TURRET="[0]";
+		LEADER="_unit_4";
+		DISPLAY_NAME="CH-47D Gunner ";
+		DISPLAY_NAME_TREE="CH-47D Gunner ";
+		PARENT="_group_1";
+		PARENT_UNIT="";
+	};
+};
+class _unit_6
+{
+	objectType="unit";
+	height=-13.860000;
+	class Arguments
+	{
+		DESCRIPTION="CH-47D Assistant Gunner ";
+		SIDE="WEST";
+		TYPE="VBS2_AU_Army_HeliPilot_W_BrowningHP";
+		SPECIAL="CARGO";
+		POSITION="[2579.19,2505.22,0]";
+		COLOR="[0.6,0.6,1]";
+		COMMANDER="";
+		DRIVER="";
+		GUNNER="_vehicle_0";
+		GUNNER_TURRET="[1]";
+		LEADER="_unit_4";
+		DISPLAY_NAME="CH-47D Assistant Gunner ";
+		DISPLAY_NAME_TREE="CH-47D Assistant Gunner ";
+		PARENT="_group_1";
+		PARENT_UNIT="";
+	};
+};
+class _unit_7
+{
+	objectType="unit";
+	height=-13.860000;
+	class Arguments
+	{
+		DESCRIPTION="CH-47D Assistant Gunner ";
+		SIDE="WEST";
+		TYPE="VBS2_AU_Army_HeliPilot_W_BrowningHP";
+		SPECIAL="CARGO";
+		POSITION="[2579.19,2505.22,0]";
+		COLOR="[0.6,0.6,1]";
+		COMMANDER="";
+		DRIVER="";
+		GUNNER="_vehicle_0";
+		GUNNER_TURRET="[2]";
+		LEADER="_unit_4";
+		DISPLAY_NAME="CH-47D Assistant Gunner ";
+		DISPLAY_NAME_TREE="CH-47D Assistant Gunner ";
+		PARENT="_group_1";
+		PARENT_UNIT="";
+	};
+};
+class _marker_0
+{
+	objectType="marker";
+	height=138.139999;
+	class Arguments
+	{
+		POSITION="[2579.19,2505.22,152]";
+		NAME="m1";
+		LASTNAME="m1";
+		MARKER_TYPE="TacticalMarker";
+		COLOR="ColorBlue";
+		PARENT="_group_1";
+		PARENT_UNIT="_unit_4";
+		DISPLAY_NAME="Marker m1";
+		SIDE="F1";
+		UNIT="I11";
+		SIZE="M2";
+		PREVIEW_SIDE="\vbs2\ui\tacticmarkers\data\Frames\Friend_Units";
+		PREVIEW_UNIT="\vbs2\ui\tacticmarkers\data\Icons\Aviation";
+		PREVIEW_SIZE="\vbs2\ui\tacticmarkers\data\Modifiers\S_Team";
+		PREVIEW_MODIFIER="\vbs2\ui\tacticmarkers\data\SubRoles\Blanc";
+	};
+	class DynamicArguments
+	{
+		name="TacticalMarker";
+		class Params
+		{
+			class CUSTOM_MARKER
+			{
+				type="config";
+				subtype="CfgMarkers,name";
+				description="Custom Marker";
+				w=0.340000;
+				idc=5001;
+				onChanged="[_map] call compile preprocessFile ""\vbs2\editor\Data\Scripts\marker\customMarkers\markerUIcustomLBChanged.sqf""";
+			};
+			class CUSTOM_DELETE
+			{
+				type="button";
+				x=0.560000;
+				y=0.110000;
+				w=0.100000;
+				onInit="_control_CUSTOM_DELETE ctrlSetText (localize ""STR_CA_DELETE""); _control_CUSTOM_DELETE ctrlSetEventHandler [""ButtonClick"",preProcessFile ""\vbs2\editor\Data\Scripts\marker\customMarkers\markerUIcustomDelete.sqf""]";
+			};
+			class CUSTOM_NAME
+			{
+				type="text";
+				description="Save as";
+				w=0.340000;
+				idc=5002;
+			};
+			class CUSTOM_SAVE
+			{
+				type="button";
+				x=0.560000;
+				y=0.140000;
+				w=0.100000;
+				onInit="_control_CUSTOM_SAVE ctrlSetText (localize ""STR_DISP_ARCMAP_SAVE""); _control_CUSTOM_SAVE ctrlSetEventHandler [""ButtonClick"",preProcessFile ""\vbs2\editor\Data\Scripts\marker\customMarkers\markerUIcustomSave.sqf""]";
+			};
+			class SIDE
+			{
+				type="configEx";
+				subtype="cfgTacticalSymbols.Sides,name";
+				description="Side Icon";
+				default="f1";
+				w=0.250000;
+				idc=5026;
+				onInit="_sel = _control_SIDE lbData lbCurSel _control_SIDE; lbSort _control_SIDE; _was = _sel; for '_i' from 0 to (lbSize _control_SIDE) -1 do {if (_control_SIDE lbData _i == _sel) then {_was = _i;_control_SIDE lbSetCurSel _i}};['addMRK_SIDE', ctrlText _control_NAME != '', 0, 'lb', _control_SIDE,_was] call compile preProcessFile '\vbs2\editor\Data\Scripts\UI\saveLastSelection.sqf';";
+				onChanged="_this call _func_COC_Marker_DlgChanged";
+			};
+			class SIDE_POSITION
+			{
+				type="number";
+				subtype="range(-0.05, 0.05)";
+				description="Side Icon";
+				default="0";
+				hidden=1;
+				w=0.150000;
+				onChanged="[_this,_control_PREVIEW_SIDE,""X""] call compile preprocessfile (""\vbs2\editor\Data\Scripts\marker\layerPosition.sqf"")";
+			};
+			class SIDE_DOWN
+			{
+				type="number";
+				subtype="range(-0.05, 0.05)";
+				description="****TO TRANSLATE****";
+				default="0";
+				hidden=1;
+				x=0.362500;
+				w=0.150000;
+				onChanged="[_this,_control_PREVIEW_SIDE,""Y""] call compile preprocessfile (""\vbs2\editor\Data\Scripts\marker\layerPosition.sqf"")";
+			};
+			class SIDE_SCALE
+			{
+				type="number";
+				subtype="range(0.5, 1.5)";
+				description="Scale";
+				default="1";
+				x=0.470000;
+				y=0.170000;
+				w=0.150000;
+				idc=5027;
+				onChanged="[_this,_control_PREVIEW_SIDE,_control_SIDE_POSITION,_control_SIDE_DOWN] call compile preprocessfile (""\vbs2\editor\Data\Scripts\marker\layerScale.sqf"")";
+			};
+			class UNIT
+			{
+				type="configEx";
+				subtype="cfgTacticalSymbols.Units,name";
+				description="Unit Icon";
+				default="I1";
+				w=0.250000;
+				idc=5028;
+				onInit="_sel = _control_UNIT lbData lbCurSel _control_UNIT; lbSort _control_UNIT; _was = _sel; for '_i' from 0 to (lbSize _control_UNIT) -1 do {if (_control_UNIT lbData _i == _sel) then {_was = _i;_control_UNIT lbSetCurSel _i}};['addMRK_UNIT', ctrlText _control_NAME != '', 0, 'lb', _control_UNIT,_was] call compile preProcessFile '\vbs2\editor\Data\Scripts\UI\saveLastSelection.sqf';";
+				onChanged="_this call _func_COC_Marker_DlgChanged";
+			};
+			class UNIT_POSITION
+			{
+				type="number";
+				subtype="range(-0.05, 0.05)";
+				description="****TO TRANSLATE****";
+				default="0";
+				hidden=1;
+				w=0.150000;
+				onChanged="[_this,_control_PREVIEW_UNIT,""X""] call compile preprocessfile (""\vbs2\editor\Data\Scripts\marker\layerPosition.sqf"")";
+			};
+			class UNIT_DOWN
+			{
+				type="number";
+				subtype="range(-0.05, 0.05)";
+				description="****TO TRANSLATE****";
+				default="0";
+				hidden=1;
+				x=0.362500;
+				y=0.260000;
+				w=0.150000;
+				onChanged="[_this,_control_PREVIEW_UNIT,""Y""] call compile preprocessfile (""\vbs2\editor\Data\Scripts\marker\layerPosition.sqf"")";
+			};
+			class UNIT_SCALE
+			{
+				type="number";
+				subtype="range(0.5, 1.5)";
+				description="Scale";
+				default="1";
+				x=0.470000;
+				y=0.200000;
+				w=0.150000;
+				idc=5029;
+				onInit="['addMRK_UNIT_SCALE', ctrlText _control_NAME != '', 0, 'sld', _control_UNIT_SCALE] call compile preProcessFile '\vbs2\editor\Data\Scripts\UI\saveLastSelection.sqf';";
+				onChanged="[_this,_control_PREVIEW_UNIT,_control_UNIT_POSITION,_control_UNIT_DOWN] call compile preprocessfile (""\vbs2\editor\Data\Scripts\marker\layerScale.sqf"")";
+			};
+			class SIZE
+			{
+				type="configEx";
+				subtype="cfgTacticalSymbols.Size,name";
+				description="Size Icon";
+				w=0.250000;
+				idc=5030;
+				onInit="['addMRK_SIZE', ctrlText _control_NAME != '', 0, 'lb', _control_SIZE] call compile preProcessFile '\vbs2\editor\Data\Scripts\UI\saveLastSelection.sqf';";
+				onChanged="_this call _func_COC_Marker_DlgChanged";
+			};
+			class SIZE_POSITION
+			{
+				type="number";
+				subtype="range(-0.05, 0.05)";
+				description="****TO TRANSLATE****";
+				default="0";
+				hidden=1;
+				w=0.150000;
+				onChanged="[_this,_control_PREVIEW_SIZE,""X""] call compile preprocessfile (""\vbs2\editor\Data\Scripts\marker\layerPosition.sqf"")";
+			};
+			class SIZE_DOWN
+			{
+				type="number";
+				subtype="range(-0.05, 0.05)";
+				description="****TO TRANSLATE****";
+				default="0";
+				hidden=1;
+				x=0.362500;
+				y=0.320000;
+				w=0.150000;
+				onChanged="[_this,_control_PREVIEW_SIZE,""Y""] call compile preprocessfile (""\vbs2\editor\Data\Scripts\marker\layerPosition.sqf"")";
+			};
+			class SIZE_SCALE
+			{
+				type="number";
+				subtype="range(0.5, 1.5)";
+				description="Scale";
+				default="1";
+				x=0.470000;
+				y=0.230000;
+				w=0.150000;
+				idc=5031;
+				onInit="['addMRK_SIZE_SCALE', ctrlText _control_NAME != '', 0, 'sld', _control_SIZE_SCALE] call compile preProcessFile '\vbs2\editor\Data\Scripts\UI\saveLastSelection.sqf';";
+				onChanged="[_this,_control_PREVIEW_SIZE,_control_SIZE_POSITION,_control_SIZE_DOWN] call compile preprocessfile (""\vbs2\editor\Data\Scripts\marker\layerScale.sqf"")";
+			};
+			class MODIFIER
+			{
+				type="configEx";
+				subtype="cfgTacticalSymbols.Modifiers,name";
+				description="Modifier Icon";
+				default="S0";
+				w=0.250000;
+				idc=5032;
+				onInit="_sel = _control_MODIFIER lbData lbCurSel _control_MODIFIER; lbSort _control_MODIFIER; _was = _sel; for '_i' from 0 to (lbSize _control_MODIFIER) -1 do {if (_control_MODIFIER lbData _i == _sel) then {_was = _i;_control_MODIFIER lbSetCurSel _i}};['addMRK_MODIFIER', ctrlText _control_NAME != '', 0, 'lb', _control_MODIFIER,_was] call compile preProcessFile '\vbs2\editor\Data\Scripts\UI\saveLastSelection.sqf';";
+				onChanged="_this call _func_COC_Marker_DlgChanged";
+			};
+			class MODIFIER_POSITION
+			{
+				type="number";
+				subtype="range(-0.05, 0.05)";
+				description="****TO TRANSLATE****";
+				default="0";
+				hidden=1;
+				w=0.150000;
+				onChanged="[_this,_control_PREVIEW_MODIFIER,""X""] call compile preprocessfile (""\vbs2\editor\Data\Scripts\marker\layerPosition.sqf"")";
+			};
+			class MODIFIER_DOWN
+			{
+				type="number";
+				subtype="range(-0.05, 0.05)";
+				description="****TO TRANSLATE****";
+				default="0";
+				hidden=1;
+				x=0.362500;
+				y=0.380000;
+				w=0.150000;
+				onChanged="[_this,_control_PREVIEW_MODIFIER,""Y""] call compile preprocessfile (""\vbs2\editor\Data\Scripts\marker\layerPosition.sqf"")";
+			};
+			class MODIFIER_SCALE
+			{
+				type="number";
+				subtype="range(0.5, 1.5)";
+				description="Scale";
+				default="1";
+				x=0.470000;
+				y=0.260000;
+				w=0.150000;
+				idc=5033;
+				onInit="['addMRK_MODIFIER_SCALE', ctrlText _control_NAME != '', 0, 'sld', _control_MODIFIER_SCALE] call compile preProcessFile '\vbs2\editor\Data\Scripts\UI\saveLastSelection.sqf';";
+				onChanged="[_this,_control_PREVIEW_MODIFIER,_control_MODIFIER_POSITION,_control_MODIFIER_DOWN] call compile preprocessfile (""\vbs2\editor\Data\Scripts\marker\layerScale.sqf"")";
+			};
+			class PREVIEW_SIDE
+			{
+				type="picture";
+				description="Preview";
+			};
+			class PREVIEW_UNIT
+			{
+				type="picture";
+				description="****TO TRANSLATE****";
+				x=0.210000;
+				y=0.290000;
+				w=0.150000;
+				h=0.200000;
+			};
+			class PREVIEW_SIZE
+			{
+				type="picture";
+				description="****TO TRANSLATE****";
+				x=0.210000;
+				y=0.290000;
+				w=0.150000;
+				h=0.200000;
+			};
+			class PREVIEW_MODIFIER
+			{
+				type="picture";
+				description="****TO TRANSLATE****";
+				x=0.210000;
+				y=0.290000;
+				w=0.150000;
+				h=0.200000;
+			};
+		};
+		create[]=
+		{
+			"%VARIABLE_NAME = ([""%VARIABLE_NAME"",%NAME,%TEXT,%MARKER_TYPE,"""",%COLOR,[%A, %B],%ANGLE,%POSITION,%CONDITION,%PREVIEW_SIDE,%PREVIEW_UNIT,%PREVIEW_SIZE,%PREVIEW_MODIFIER,[%SIDE_POSITION,%SIDE_DOWN],%SIDE_SCALE,[%SIZE_POSITION,%SIZE_DOWN],%SIZE_SCALE,[%UNIT_POSITION,%UNIT_DOWN],%UNIT_SCALE,[%MODIFIER_POSITION,%MODIFIER_DOWN],%MODIFIER_SCALE,%AUTOSCALE] + [%PARENT_UNIT]) call _func_COC_Marker_Tactical_Create;"
+		};
+		update[]=
+		{
+			"[%NAME,%TEXT,%MARKER_TYPE,"""",%COLOR,[%A, %B],%ANGLE,%POSITION,%CONDITION,%PREVIEW_SIDE,%PREVIEW_UNIT,%PREVIEW_SIZE,%PREVIEW_MODIFIER,[%SIDE_POSITION,%SIDE_DOWN],%SIDE_SCALE,[%SIZE_POSITION,%SIZE_DOWN],%SIZE_SCALE,[%UNIT_POSITION,%UNIT_DOWN],%UNIT_SCALE,[%MODIFIER_POSITION,%MODIFIER_DOWN],%MODIFIER_SCALE,""%PARENT"",""%VARIABLE_NAME"",%AUTOSCALE] call _func_COC_Marker_Tactical_Update;"
+		};
+		execDrawMap="false";
+	};
+};
+class _group_4
+{
+	objectType="group";
+	height=0.477850;
+	class Arguments
+	{
+		DISPLAY_NAME="WEST 1-1-A-4";
+		DISPLAY_NAME_TREE="WEST 1-1-A-4";
+		POSITION="[2507.30151, 2722.51953, 14.33785]";
+		SIDE="WEST";
+	};
+};
+class _unit_10
+{
+	objectType="unit";
+	height=0.477850;
+	class Arguments
+	{
+		NAME="unit3";
+		SIDE="west";
+		TYPE="VBS2_AU_Army_ATsoldier_D_CarlGustav";
+		BASE_TYPE="";
+		EDIT_UNIT="";
+		NEW_UNIT="";
+		DELETE_UNIT="";
+		IS_EDIT="";
+		COMBATMODE="YELLOW";
+		BEHAVIOUR="SAFE";
+		ADVANCED="";
+		BG1="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG2="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG3="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG5="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG6="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG7="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG8="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG9="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG10="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG11="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG12="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG13="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG14="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		HEALTH="1.00000";
+		AMMO="1.00000";
+		PROBOFPRES="1.00000";
+		TRAINING="0.50000";
+		EXPERIENCE="0.20000";
+		ENDURANCE="0.50000";
+		LEADERSHIP="0.20000";
+		FLEECHANCE="0.75000";
+		HEIGHT="1.82000";
+		BMI="0.00000";
+		AZIMUT="176.35666";
+		POSITION="[2507.30151, 2722.51953, 14.33785]";
+		COLOR="[0.6,0.6,1]";
+		SUB_TEAM="";
+		DISPLAY_NAME="(unit3) AT Soldier - CarlGustav M2";
+		DISPLAY_NAME_TREE="(unit3) AT Soldier - CarlGustav M2";
+		PARENT="_group_4";
+		PARENT_UNIT="";
+		FIRSTTASK="";
+		LOADOUT="";
+	};
+};
+class _group_6
+{
+	objectType="group";
+	height=0.000000;
+	class Arguments
+	{
+		DISPLAY_NAME="WEST 1-1-A-5";
+		DISPLAY_NAME_TREE="WEST 1-1-A-5";
+		POSITION="[2538.82056, 2625.18042, 13.86000]";
+		SIDE="WEST";
+	};
+};
+class _unit_12
+{
+	objectType="unit";
+	height=0.000000;
+	class Arguments
+	{
+		NAME="unit2";
+		SIDE="west";
+		TYPE="VBS2_AU_Army_ATsoldier_D_CarlGustav";
+		BASE_TYPE="";
+		EDIT_UNIT="";
+		NEW_UNIT="";
+		DELETE_UNIT="";
+		IS_EDIT="";
+		COMBATMODE="YELLOW";
+		BEHAVIOUR="SAFE";
+		ADVANCED="";
+		BG1="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG2="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG3="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG5="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG6="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG7="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG8="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG9="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG10="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG11="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG12="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG13="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG14="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		HEALTH="1.00000";
+		AMMO="1.00000";
+		PROBOFPRES="1.00000";
+		TRAINING="0.50000";
+		EXPERIENCE="0.20000";
+		ENDURANCE="0.50000";
+		LEADERSHIP="0.20000";
+		FLEECHANCE="0.75000";
+		HEIGHT="1.82000";
+		BMI="0.00000";
+		AZIMUT="268.99036";
+		POSITION="[2538.82056, 2625.18042, 13.86000]";
+		COLOR="[0.6,0.6,1]";
+		SUB_TEAM="";
+		DISPLAY_NAME="(unit2) AT Soldier - CarlGustav M2";
+		DISPLAY_NAME_TREE="(unit2) AT Soldier - CarlGustav M2";
+		PARENT="_group_6";
+		PARENT_UNIT="";
+		FIRSTTASK="";
+		LOADOUT="";
+	};
+};
+class _group_8
+{
+	objectType="group";
+	height=0.001438;
+	class Arguments
+	{
+		DISPLAY_NAME="WEST 1-1-A-6";
+		DISPLAY_NAME_TREE="WEST 1-1-A-6";
+		POSITION="[2583.96021, 2607.31958, 13.85879]";
+		SIDE="WEST";
+	};
+};
+class _unit_14
+{
+	objectType="unit";
+	height=-0.000002;
+	class Arguments
+	{
+		NAME="unit4";
+		SIDE="west";
+		TYPE="VBS2_AU_Army_ATsoldier_D_CarlGustav";
+		BASE_TYPE="";
+		EDIT_UNIT="";
+		NEW_UNIT="";
+		DELETE_UNIT="";
+		IS_EDIT="";
+		COMBATMODE="YELLOW";
+		BEHAVIOUR="SAFE";
+		ADVANCED="";
+		BG1="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG2="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG3="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG5="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG6="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG7="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG8="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG9="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG10="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG11="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG12="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG13="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		BG14="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		HEALTH="1.00000";
+		AMMO="1.00000";
+		PROBOFPRES="1.00000";
+		TRAINING="0.50000";
+		EXPERIENCE="0.20000";
+		ENDURANCE="0.50000";
+		LEADERSHIP="0.20000";
+		FLEECHANCE="0.75000";
+		HEIGHT="1.82000";
+		BMI="0.00000";
+		AZIMUT="176.35666";
+		POSITION="[2583.96021, 2607.31958, 13.85735]";
+		COLOR="[0.6,0.6,1]";
+		SUB_TEAM="";
+		DISPLAY_NAME="(unit4) AT Soldier - CarlGustav M2";
+		DISPLAY_NAME_TREE="(unit4) AT Soldier - CarlGustav M2";
+		PARENT="_group_8";
+		PARENT_UNIT="";
+		FIRSTTASK="";
+		LOADOUT="";
+	};
+};
+class _vehicle_1
+{
+	objectType="vehicle";
+	height=0.000000;
+	class Arguments
+	{
+		NAME="chinook2";
+		SUB_TEAM="";
+		SIDE="all";
+		TYPE="VBS2_AU_Army_CH47D_G_M134";
+		EDIT_UNIT="";
+		NEW_UNIT="";
+		DELETE_UNIT="";
+		IS_EDIT="";
+		HAS_CREW="false";
+		ADVANCED="";
+		BG1="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		FUEL="1.00000";
+		BG2="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		HEALTH="1.00000";
+		BG3="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		AMMO="1.00000";
+		BG4="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		PROBOFPRES="1.00000";
+		AZIMUT="91.49787";
+		VECTORDIR="[0.99775,-0.02609,-0.06173]";
+		VECTORUP="[0.06171,-0.00161,0.99809]";
+		POSITION="[2508.82,2565.22,13.86]";
+		PARENT="";
+		COLOR="[0.5,0.5,0]";
+		FIRSTTASK="";
+		DISPLAY_NAME="(chinook2) CH-47D";
+		DISPLAY_NAME_TREE="(chinook2) CH-47D";
+	};
+};
+class _vehicle_4
+{
+	objectType="vehicle";
+	height=-0.291500;
+	class Arguments
+	{
+		NAME="chopper3";
+		SUB_TEAM="";
+		SIDE="all";
+		TYPE="VBS2_AU_Army_MRH90_W";
+		EDIT_UNIT="";
+		NEW_UNIT="";
+		DELETE_UNIT="";
+		IS_EDIT="";
+		HAS_CREW="false";
+		ADVANCED="";
+		BG1="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		FUEL="1.00000";
+		BG2="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		HEALTH="1.00000";
+		BG3="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		AMMO="1.00000";
+		BG4="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		PROBOFPRES="1.00000";
+		AZIMUT="91.49787";
+		VECTORDIR="[0.999658,-0.0261398,0]";
+		VECTORUP="[0,0,1]";
+		POSITION="[2509.9,2542.38,13.5685]";
+		PARENT="";
+		TOWED_BY="";
+		COLOR="[0.5,0.5,0]";
+		FIRSTTASK="";
+		DISPLAY_NAME="(chopper3) MRH-90";
+		DISPLAY_NAME_TREE="(chopper3) MRH-90";
+	};
+};
+class _vehicle_6
+{
+	objectType="vehicle";
+	height=-0.291500;
+	class Arguments
+	{
+		NAME="chopper4";
+		SUB_TEAM="";
+		SIDE="all";
+		TYPE="VBS2_AU_Army_S70_W";
+		EDIT_UNIT="";
+		NEW_UNIT="";
+		DELETE_UNIT="";
+		IS_EDIT="";
+		HAS_CREW="false";
+		ADVANCED="";
+		BG1="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		FUEL="1.00000";
+		BG2="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		HEALTH="1.00000";
+		BG3="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		AMMO="1.00000";
+		BG4="\vbs2\ui\Data\NewEditor\slider_back_rad.paa";
+		PROBOFPRES="1.00000";
+		AZIMUT="91.49787";
+		VECTORDIR="[0.999658,-0.0261398,0]";
+		VECTORUP="[0,0,1]";
+		POSITION="[2507.04,2518.98,13.5685]";
+		PARENT="";
+		TOWED_BY="";
+		COLOR="[0.5,0.5,0]";
+		FIRSTTASK="";
+		DISPLAY_NAME="(chopper4) S-70";
+		DISPLAY_NAME_TREE="(chopper4) S-70";
+	};
+};
+class _waypoint_0
+{
+	objectType="waypoint";
+	height=0.000000;
+	class Arguments
+	{
+		VECTOR_DIRECTION="";
+		POSITION="[2529.18359, 2531.69092, 13.86000]";
+		TYPE="MOVE";
+		DISPLAY_NAME="MOVE";
+		DISPLAY_NAME_TREE="MOVE";
+		PARENT="_group_0";
+		PARENT_UNIT="_unit_2";
+		PREVTASK="";
+		NEXTTASK_PRELIM="";
+		NEXTTASK="_waypoint_3";
+		AVRS_ACTION="";
+		NAME="";
+	};
+};
+class _waypoint_3
+{
+	objectType="waypoint";
+	height=0.000000;
+	class Arguments
+	{
+		VECTOR_DIRECTION="";
+		POSITION="[2527.73218, 2588.64966, 13.86000]";
+		TYPE="MOVE";
+		DISPLAY_NAME="MOVE";
+		DISPLAY_NAME_TREE="MOVE";
+		PARENT="_group_0";
+		PARENT_UNIT="_unit_2";
+		PREVTASK="_waypoint_0";
+		NEXTTASK_PRELIM="";
+		NEXTTASK="_waypoint_0";
+		AVRS_ACTION="";
+		NAME="";
+	};
+};
+class _waypoint_4
+{
+	objectType="waypoint";
+	height=0.000000;
+	class Arguments
+	{
+		VECTOR_DIRECTION="";
+		POSITION="[2573.82837, 2891.86035, 13.86000]";
+		TYPE="MOVE";
+		DISPLAY_NAME="MOVE";
+		DISPLAY_NAME_TREE="MOVE";
+		PARENT="_group_1";
+		PARENT_UNIT="_unit_4";
+		PREVTASK="";
+		NEXTTASK_PRELIM="";
+		NEXTTASK="_waypoint_7";
+		AVRS_ACTION="";
+		NAME="";
+	};
+};
+class _waypoint_7
+{
+	objectType="waypoint";
+	height=-0.000001;
+	class Arguments
+	{
+		VECTOR_DIRECTION="";
+		POSITION="[2493.41162, 2891.86035, 13.83106]";
+		TYPE="MOVE";
+		DISPLAY_NAME="MOVE";
+		DISPLAY_NAME_TREE="MOVE";
+		PARENT="_group_1";
+		PARENT_UNIT="_unit_4";
+		PREVTASK="_waypoint_4";
+		NEXTTASK_PRELIM="";
+		NEXTTASK="_waypoint_9";
+		AVRS_ACTION="";
+		NAME="";
+	};
+};
+class _waypoint_9
+{
+	objectType="waypoint";
+	height=-0.000001;
+	class Arguments
+	{
+		VECTOR_DIRECTION="";
+		POSITION="[2496.47510, 2475.36230, 13.86049]";
+		TYPE="MOVE";
+		DISPLAY_NAME="MOVE";
+		DISPLAY_NAME_TREE="MOVE";
+		PARENT="_group_1";
+		PARENT_UNIT="_unit_4";
+		PREVTASK="_waypoint_7";
+		NEXTTASK_PRELIM="";
+		NEXTTASK="_waypoint_11";
+		AVRS_ACTION="";
+		NAME="";
+	};
+};
+class _waypoint_11
+{
+	objectType="waypoint";
+	height=0.000000;
+	class Arguments
+	{
+		VECTOR_DIRECTION="";
+		POSITION="[2584.55078, 2473.06519, 13.86000]";
+		TYPE="MOVE";
+		DISPLAY_NAME="MOVE";
+		DISPLAY_NAME_TREE="MOVE";
+		PARENT="_group_1";
+		PARENT_UNIT="_unit_4";
+		PREVTASK="_waypoint_9";
+		NEXTTASK_PRELIM="";
+		NEXTTASK="_waypoint_4";
+		AVRS_ACTION="";
+		NAME="";
+	};
+};
+class _waypoint_14
+{
+	objectType="waypoint";
+	height=0.000000;
+	class Arguments
+	{
+		VECTOR_DIRECTION="";
+		POSITION="[2506.45679, 2688.78345, 13.86000]";
+		AZIMUT="0.00000";
+		TYPE="MOVE";
+		DISPLAY_NAME="MOVE";
+		DISPLAY_NAME_TREE="MOVE";
+		PARENT="_group_4";
+		PARENT_UNIT="_unit_10";
+		PREVTASK="";
+		NEXTTASK_PRELIM="";
+		NEXTTASK="_waypoint_15";
+		AVRS_ACTION="";
+		NAME="";
+	};
+};
+class _waypoint_15
+{
+	objectType="waypoint";
+	height=0.000000;
+	class Arguments
+	{
+		VECTOR_DIRECTION="";
+		POSITION="[2505.00537, 2745.74219, 13.86000]";
+		AZIMUT="0.00000";
+		TYPE="MOVE";
+		DISPLAY_NAME="MOVE";
+		DISPLAY_NAME_TREE="MOVE";
+		PARENT="_group_4";
+		PARENT_UNIT="_unit_10";
+		PREVTASK="_waypoint_14";
+		NEXTTASK_PRELIM="";
+		NEXTTASK="_waypoint_14";
+		AVRS_ACTION="";
+		NAME="";
+	};
+};
+class _waypoint_18
+{
+	objectType="waypoint";
+	height=-0.000890;
+	class Arguments
+	{
+		VECTOR_DIRECTION="";
+		POSITION="[2505.15747, 2627.57446, 13.85911]";
+		AZIMUT="0.00000";
+		TYPE="MOVE";
+		DISPLAY_NAME="MOVE";
+		DISPLAY_NAME_TREE="MOVE";
+		PARENT="_group_6";
+		PARENT_UNIT="_unit_12";
+		PREVTASK="";
+		NEXTTASK_PRELIM="";
+		NEXTTASK="_waypoint_19";
+		AVRS_ACTION="";
+		NAME="";
+	};
+};
+class _waypoint_19
+{
+	objectType="waypoint";
+	height=0.002818;
+	class Arguments
+	{
+		VECTOR_DIRECTION="";
+		POSITION="[2562.12402, 2626.40771, 13.86017]";
+		AZIMUT="0.00000";
+		TYPE="MOVE";
+		DISPLAY_NAME="MOVE";
+		DISPLAY_NAME_TREE="MOVE";
+		PARENT="_group_6";
+		PARENT_UNIT="_unit_12";
+		PREVTASK="_waypoint_18";
+		NEXTTASK_PRELIM="";
+		NEXTTASK="_waypoint_18";
+		AVRS_ACTION="";
+		NAME="";
+	};
+};
+class _waypoint_22
+{
+	objectType="waypoint";
+	height=-0.000002;
+	class Arguments
+	{
+		VECTOR_DIRECTION="";
+		POSITION="[2583.11548, 2573.58350, 13.85735]";
+		AZIMUT="0.00000";
+		TYPE="MOVE";
+		DISPLAY_NAME="MOVE";
+		DISPLAY_NAME_TREE="MOVE";
+		PARENT="_group_8";
+		PARENT_UNIT="_unit_14";
+		PREVTASK="";
+		NEXTTASK_PRELIM="";
+		NEXTTASK="_waypoint_23";
+		AVRS_ACTION="";
+		NAME="";
+	};
+};
+class _waypoint_23
+{
+	objectType="waypoint";
+	height=-0.000146;
+	class Arguments
+	{
+		VECTOR_DIRECTION="";
+		POSITION="[2581.66406, 2630.54224, 13.85735]";
+		AZIMUT="0.00000";
+		TYPE="MOVE";
+		DISPLAY_NAME="MOVE";
+		DISPLAY_NAME_TREE="MOVE";
+		PARENT="_group_8";
+		PARENT_UNIT="_unit_14";
+		PREVTASK="_waypoint_22";
+		NEXTTASK_PRELIM="";
+		NEXTTASK="_waypoint_14";
+		AVRS_ACTION="";
+		NAME="";
+	};
+};
+class _postfix_0
+{
+	objectType="postfix";
+	class Arguments
+	{
+	};
+};

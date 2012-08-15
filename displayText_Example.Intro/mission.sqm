@@ -1,0 +1,266 @@
+version=13;
+class Mission
+{
+	addOns[]=
+	{
+		"vbs2_people_au_adf_rifleman",
+		"vbs2_vehicles_air_helicopters_boeing_h47_au_ch47",
+		"vbs2_vehicles_air_helicopters_nhi_nh90_au_nh90",
+		"vbs2_vehicles_air_helicopters_sikorsky_h70_au_s70",
+		"vbs2_editor",
+		"vbs2_people_au_adf_pilot_heli",
+		"vbs2_structures_objects",
+		"vbs2_structures_misc"
+	};
+	addOnsAuto[]=
+	{
+		"vbs2_people_au_adf_rifleman",
+		"vbs2_vehicles_air_helicopters_boeing_h47_au_ch47",
+		"vbs2_vehicles_air_helicopters_nhi_nh90_au_nh90",
+		"vbs2_vehicles_air_helicopters_sikorsky_h70_au_s70",
+		"vbs2_editor",
+		"vbs2_people_au_adf_pilot_heli",
+		"vbs2_structures_objects",
+		"vbs2_structures_misc"
+	};
+	randomSeed=14367747;
+	class Intel
+	{
+		startWeather=0.100000;
+		forecastWeather=0.300000;
+		year=2007;
+		month=6;
+		day=7;
+		hour=8;
+		declination=14.290000;
+	};
+	class Groups
+	{
+		items=6;
+		class Item0
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={2547.392090,13.860000,2544.072510};
+					positionASL[]={2547.392090,13.860000,2544.072510};
+					special="CAN_COLLIDE";
+					id=0;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_D_CarlGustav";
+					player="PLAYER COMMANDER";
+					leader=1;
+					rankName="PRIVATE";
+					skill=0.600000;
+					text="unit_0";
+				};
+			};
+		};
+		class Item1
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={2530.028320,13.860000,2565.427002};
+					positionASL[]={2530.028320,13.860000,2565.427002};
+					special="CAN_COLLIDE";
+					id=1;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_D_CarlGustav";
+					leader=1;
+					rankName="PRIVATE";
+					skill=0.600000;
+					text="unit1";
+				};
+			};
+		};
+		class Item2
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={2579.189941,0.000000,2505.219971};
+					positionASL[]={2579.189941,0.000000,2505.219971};
+					special="CAN_COLLIDE";
+					id=2;
+					side="WEST";
+					vehicle="VBS2_AU_Army_HeliPilot_W_BrowningHP";
+					leader=1;
+					rankName="PRIVATE";
+					skill=0.600000;
+					text="unit_4";
+					description="CH-47D Pilot ";
+				};
+				class Item1
+				{
+					position[]={2579.189941,0.000000,2505.219971};
+					positionASL[]={2579.189941,0.000000,2505.219971};
+					special="CAN_COLLIDE";
+					id=3;
+					side="WEST";
+					vehicle="VBS2_AU_Army_HeliPilot_W_BrowningHP";
+					rankName="PRIVATE";
+					skill=0.600000;
+					text="unit_5";
+					description="CH-47D Gunner ";
+				};
+				class Item2
+				{
+					position[]={2579.189941,0.000000,2505.219971};
+					positionASL[]={2579.189941,0.000000,2505.219971};
+					special="CAN_COLLIDE";
+					id=4;
+					side="WEST";
+					vehicle="VBS2_AU_Army_HeliPilot_W_BrowningHP";
+					rankName="PRIVATE";
+					skill=0.600000;
+					text="unit_6";
+					description="CH-47D Assistant Gunner ";
+				};
+				class Item3
+				{
+					position[]={2579.189941,0.000000,2505.219971};
+					positionASL[]={2579.189941,0.000000,2505.219971};
+					special="CAN_COLLIDE";
+					id=5;
+					side="WEST";
+					vehicle="VBS2_AU_Army_HeliPilot_W_BrowningHP";
+					rankName="PRIVATE";
+					skill=0.600000;
+					text="unit_7";
+					description="CH-47D Assistant Gunner ";
+				};
+			};
+		};
+		class Item3
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={2507.301514,14.337850,2722.519531};
+					positionASL[]={2507.301514,14.337850,2722.519531};
+					special="CAN_COLLIDE";
+					id=6;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_D_CarlGustav";
+					leader=1;
+					rankName="PRIVATE";
+					skill=0.600000;
+					text="unit3";
+				};
+			};
+		};
+		class Item4
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={2538.820557,13.860000,2625.180420};
+					positionASL[]={2538.820557,13.860000,2625.180420};
+					special="CAN_COLLIDE";
+					id=7;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_D_CarlGustav";
+					leader=1;
+					rankName="PRIVATE";
+					skill=0.600000;
+					text="unit2";
+				};
+			};
+		};
+		class Item5
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={2583.960205,13.857350,2607.319580};
+					positionASL[]={2583.960205,13.857350,2607.319580};
+					special="CAN_COLLIDE";
+					id=8;
+					side="WEST";
+					vehicle="VBS2_AU_Army_ATsoldier_D_CarlGustav";
+					leader=1;
+					rankName="PRIVATE";
+					skill=0.600000;
+					text="unit4";
+				};
+			};
+		};
+	};
+	class DeletedMapObjects
+	{
+		items=0;
+	};
+};
+class Intro
+{
+	randomSeed=5310467;
+	class Intel
+	{
+		startWeather=0.100000;
+		forecastWeather=0.300000;
+		year=2007;
+		month=6;
+		day=7;
+		hour=8;
+		declination=14.290000;
+	};
+	class DeletedMapObjects
+	{
+		items=0;
+	};
+};
+class OutroWin
+{
+	randomSeed=4845571;
+	class Intel
+	{
+		startWeather=0.100000;
+		forecastWeather=0.300000;
+		year=2007;
+		month=6;
+		day=7;
+		hour=8;
+		declination=14.290000;
+	};
+	class DeletedMapObjects
+	{
+		items=0;
+	};
+};
+class OutroLoose
+{
+	randomSeed=11117059;
+	class Intel
+	{
+		startWeather=0.100000;
+		forecastWeather=0.300000;
+		year=2007;
+		month=6;
+		day=7;
+		hour=8;
+		declination=14.290000;
+	};
+	class DeletedMapObjects
+	{
+		items=0;
+	};
+};
